@@ -6,29 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>e-book-log-in</title>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    body {
-      background-image: url('img/knigi-41.webp');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      min-height: 100vh;
-      margin: 0;
-      padding-top: 50px;
-    }
-
-    .login-form {
-      background-color: rgba(240, 240, 240, 0.7);
-      padding: 20px;
-      border-radius: 10px;
-      margin-bottom: 20px;
-    }
-
-    .t-book {
-      text-align: center;
-      padding-bottom: 5px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -39,7 +17,7 @@
           <h2 class="mb-4">TEACHER BOOK</h2>
         </div>
         <div class="login-form">
-          <form>
+          <form action="https://e-book-attendance.netlify.app" method="post">
             <div class="form-group">
               <label for="login">Username</label>
               <input type="text" class="form-control" id="login" name="login" placeholder="Enter username" required>
